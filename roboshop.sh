@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="subnet-0a673b0e80b8f1bdb" # replace with your SG ID
+SG_ID="subnet-0a673b0e80b8f1bdb" # replacewith your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z08551071NTRQQ1LVWZ0T" # replace with your ZONE ID
 DOMAIN_NAME="studydevops.fun" # replace with your domain
